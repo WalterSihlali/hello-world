@@ -6,7 +6,7 @@ import org.json.simple.parser.JSONParser;
 public class DecodeJWT {
 
 
-public static String getNedbankTokenSession(String jwtToken) throws Exception{
+public static String getJWTToken(String jwtToken) throws Exception{
 
     String[] chunks = jwtToken.split("\\.");
 
